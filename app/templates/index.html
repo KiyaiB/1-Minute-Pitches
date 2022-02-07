@@ -1,0 +1,55 @@
+{% extends 'base.html' %} {% import 'macros.html' as macro %}
+
+
+{%block content%}
+<div class=back>
+    <div class=" text-center ">
+        <h1 class="head"><strong>Welcome to the Best Pitch</strong></h1>
+    </div>
+    <hr>
+    <br><br>
+    <div class="container" style="font-family: 'Cormorant Upright', serif;">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="well well-lg" style="text-align: center;">
+                    <h3>Inspirational Pitches</h3>
+                    <hr>
+                    <p>The greatest thing in this world is not so much where we stand, as in what direction we are
+                        moving </p>
+                    <a href="{{url_for('main.interview_pitches')}}" class="btn btn-info btn-center -center">Click to
+                        view</a>
+                </div>
+                <div class="well well-lg" style="text-align: center;">
+                    <h3>Love Pitches</h3>
+                    <hr>
+                    <p>"What differentiates sellers today is their ability to bring fresh ideas." </p>
+                    <a href="{{url_for('main.product_pitches')}}" class="btn btn-info -center">Click to view</a>
+                </div>
+
+
+                <div class="well well-lg" style="text-align: center;">
+                    <h3>Educational Pitches</h3>
+                    <hr>
+                    <p>"Failure will never overtake me if my determination to succeed is strong enough." </p>
+                    <a href="{{url_for('main.promotion_pitches')}}" class="btn btn-info -center">Click to view</a>
+                </div>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <div style="padding-bottom: 20px; text-align: center;">
+        <a href="{{url_for('main.new_pitch')}}" class="btn btn-info btn-center">Click to share a pitch</a>
+    </div>
+</div>
+
+
+<style>
+    body{
+        background-image:url(../static/far.jpg);
+        background-repeat:no-repeat ;
+        background-size: cover;
+    }
+</style>
+{%endblock%}
