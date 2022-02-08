@@ -7,11 +7,7 @@
 
 # TECHNOLOGIES USED
 
- * Python
- * Flask
- * Html
- * css
- * powershell
- * shell
- * java script
- * mako
+  * Python
+  * Flask
+  * 
+ 
