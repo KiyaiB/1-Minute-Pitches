@@ -16,4 +16,8 @@
   * Javascript
   * Mako
 
+# SETUP/INSTALLATION
+
+Git clone repo
+     
  
