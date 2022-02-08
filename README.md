@@ -21,5 +21,7 @@
 Git clone the repo
        
        https://github.com/KiyaiB/1-Minute-Pitches.git
+
+# DEPENDENCIES
      
  
