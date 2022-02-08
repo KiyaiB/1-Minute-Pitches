@@ -9,5 +9,11 @@
 
   * Python
   * Flask
-  * 
+  * HTML
+  * CSS
+  * Powershell
+  * Shell
+  * Javascript
+  * Mako
+
  
