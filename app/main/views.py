@@ -5,7 +5,6 @@ from . import main
 from ..models import User,Pitch,Comment
 from .. import db,photos
 import datetime
-import markdown2
 
 
  #Views
