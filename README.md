@@ -25,7 +25,7 @@
 -Navigate to the cloned repo
 
 -Open it in your desired editor. 
- 
+
 # DEPENDENCIES
 
  alembic==1.7.6
@@ -86,4 +86,6 @@ WTForms==3.0.1
 
 zipp==3.7.0
      
+ # LICENCE/COPYRIGHT
+
  
