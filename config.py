@@ -3,10 +3,9 @@ import os
 class Config:
 
   
-    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:password@localhost/pitches'
-    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL") 
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:password@localhost/pitches'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
-    SECRET_KEY = os.environ.get('SECRET_KEY')
+    SECRET_KEY = '123456'
 #  email configurations
     MAIL_SERVER = 'smtp.gmail.com'
     MAIL_PORT = 587
