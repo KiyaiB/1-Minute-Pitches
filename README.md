@@ -18,10 +18,14 @@
 
 # SETUP/INSTALLATION
 
-Git clone the repo
+-Git clone the repo
        
        https://github.com/KiyaiB/1-Minute-Pitches.git
 
+-Navigate to the cloned repo
+
+-Open it in your desired editor. 
+ 
 # DEPENDENCIES
 
  alembic==1.7.6
